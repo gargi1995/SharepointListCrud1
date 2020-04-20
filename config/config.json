@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "emp-docs-gargi-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/empDocsGargi/EmpDocsGargiWebPart.js",
+          "manifest": "./src/webparts/empDocsGargi/EmpDocsGargiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmpDocsGargiWebPartStrings": "lib/webparts/empDocsGargi/loc/{locale}.js"
+  }
+}
